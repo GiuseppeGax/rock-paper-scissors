@@ -42,11 +42,11 @@ function PlayRound(){
             humanscore++;
         }
         else{
-            computerscore
+            computerscore++;
         }
     }
     else{
-        if(computerchoice == rock){
+        if(computerchoice == "rock"){
             computerscore++;
             printscore()
         }
